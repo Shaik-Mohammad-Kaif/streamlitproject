@@ -50,7 +50,7 @@ st.markdown(
 )
 
 # Header
-st.markdown("<h1 class='header-text'>Welcome to Kaif TechBuddy</h1>", unsafe_allow_html=True)
+st.markdown("<h1 class='header-text'>Welcome to Girish Techbuddy</h1>", unsafe_allow_html=True)
 
 # Main content
 with st.container():
