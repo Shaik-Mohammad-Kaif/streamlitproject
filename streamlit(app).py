@@ -50,7 +50,7 @@ st.markdown(
 )
 
 # Header
-st.markdown("<h1 class='header-text'>Welcome to Girish Techbuddy</h1>", unsafe_allow_html=True)
+st.markdown("<h1 class='header-text'>Welcome to Girish TechBuddy</h1>", unsafe_allow_html=True)
 
 # Main content
 with st.container():
@@ -87,7 +87,7 @@ with st.container():
 
 # Sidebar content
 with st.sidebar:
-    st.markdown("# Kaif TechBuddy")
+    st.markdown("# Girish TechBuddy")
     st.text_input("Enter Username")
     st.text_input("Enter Your Password", type="password")
     st.button("Click")
