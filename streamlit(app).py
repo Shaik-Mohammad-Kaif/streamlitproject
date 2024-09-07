@@ -88,6 +88,7 @@ with st.container():
 # Sidebar content
 with st.sidebar:
     st.markdown("# Girish TechBuddy")
-    st.text_input("Enter Username")
+    username = st.text_input("Enter Username")
     st.text_input("Enter Your Password", type="password")
-    st.button("Click")
+    if st.button("Click"):
+        st.sidebar.success(f"Hi, {username}")
